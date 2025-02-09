@@ -334,9 +334,11 @@ export default function IsraMiraj() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg"
+            onClick={() => window.open('https://wa.me/6283878732395', '_blank')}
           >
-            Daftar Sekarang
+            Daftar via WhatsApp
           </motion.button>
+
         </motion.div>
       </main>
 
